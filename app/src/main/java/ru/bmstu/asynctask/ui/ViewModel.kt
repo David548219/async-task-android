@@ -9,7 +9,7 @@ import kotlin.math.sqrt
 class ViewModel : ViewModel() {
     var rawInput: String = ""
 
-    private val lblStatus: MutableLiveData<String> by lazy {
+    val lblStatus: MutableLiveData<String> by lazy {
         MutableLiveData<String>()
     }
 
